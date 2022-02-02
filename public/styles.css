@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e8ffff;
+}
+
+header {
+  background-color: #41aea9;
+  padding: 10px 20px;
+}
+.navbar-brand {
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+}
+.nav-link {
+  font-size: 20px;
+}
+
+form {
+  position: relative;
+  width: 500px;
+  margin: 20px auto 20px auto;
+  border-radius: 7px;
+  background-color: #fff;
+  box-shadow: 5px 10px 18px #888888;
+}
+form input,
+textarea {
+  font-family: "Monserrat", sans-serif;
+  font-size: 1.3rem;
+  border: none;
+  width: 100%;
+  padding: 4px;
+  outline: none;
+  resize: none;
+}
+form button {
+  position: absolute;
+  top: 125px;
+  padding: 5px;
+  margin-right: 15px;
+  right: 0;
+  border-radius: 50%;
+  background-color: #41aea9;
+  color: white;
+  outline: none;
+  border: none;
+  width: 40px;
+  height: 40px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.note {
+  width: 300px;
+  background-color: #fff;
+  margin: 30px 10px 5px 30px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 18px #888888;
+  display: inline-block;
+  white-space: normal;
+  word-break: break-word;
+}
+.note h1 {
+  font-family: "Monserrat", sans-serif;
+  font-size: 2rem;
+  padding: 2px 10px;
+}
+
+.note p {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.2rem;
+  padding: 2px 10px;
+}
+.note button {
+  position: relative;
+  left: 230px;
+  top: 17px;
+  margin-bottom: 5px;
+  color: white;
+  background-color: #41aea9;
+  border: none;
+  border-radius: 5px;
+  padding: 2px;
+  box-shadow: 5px 10px 18px #888888;
+}
+footer {
+  position: absolute;
+  text-align: center;
+  background-color: #213e3b;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+footer p {
+  color: azure;
+}
