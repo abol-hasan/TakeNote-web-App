@@ -1,5 +1,5 @@
 Take note web App
-It is a simple web App, in which you can give title and some content for your note and then they are shown on the screen.
+It is a simple web App, in which you can give title and some contents for your note and then they are shown on the screen.
 
 Tech Stack
 Client: React, Bootstrap, Html, CSS
